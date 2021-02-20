@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Element Plus の Table を使う</title>
+    <link rel="stylesheet" type="text/css" href="../lib/element-plus/element-plus-theme-chalk-index.css">
+    <script src="../lib/vue/vue.global.prod.3.0.5.js"></script>
+    <script src="../lib/element-plus/element-plus-full.1.0.2.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+<h1><a href="https://github.com/ytyaru/JS.ElementPlus.Table.20210220092859">Element Plus の Table を使う</a></h1>
+<div id="app">
+<el-table :data="tableData" style="width: 100%">
+  <el-table-column prop="date" label="Date" width="180"></el-table-column>
+  <el-table-column prop="name" label="Name" width="180"></el-table-column>
+  <el-table-column prop="address" label="Address"></el-table-column>
+</el-table>
+</div>
+</body>
+</html>
